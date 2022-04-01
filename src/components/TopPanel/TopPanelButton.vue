@@ -19,7 +19,7 @@
 		box-shadow: 3px 3px 5px 0 rgba(color(black), 0.35);
 		cursor: pointer;
 
-		&:haver,
+		&:hover,
 		&:focus {
 			filter: brightness(1.2);
 		}

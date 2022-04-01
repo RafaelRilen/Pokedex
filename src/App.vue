@@ -1,7 +1,7 @@
 <template>
-  <div id="pokedex">
-  	<Pokedex />
-  </div>
+  	<div id="pokedex">
+  		<Pokedex />
+  	</div>
 </template>
 
 <script>

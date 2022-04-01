@@ -1,7 +1,7 @@
 <template>
   <div class="panel bg--red-04">
 	  <div class="container bg--red-01">
-		  <TopPanelButton v-for="(button, index) in buttons" :key="index" v-bind="button"/>
+		  <TopPanelButton v-for="(button, index) in buttons" :key="index" v-bind="button" />
 	  </div>
   </div>
 </template>

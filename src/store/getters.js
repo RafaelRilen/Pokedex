@@ -1,5 +1,5 @@
-import { parsePokemonInfo } from "@/utils";
-import state from "./state";
+import { parsePokemonInfo } from '@/utils';
+import state from './state';
 
 export default {
 	get pokemonsInfo() {

@@ -1,6 +1,6 @@
 const requestInterceptor = config => config;
 
-const responseSucessInterceptor = response => response.data;
+const responseSuccessInterceptor = response => response.data;
 
 const responseErrorInterceptor = (error) => {
 	const response = error.response || error;
@@ -9,6 +9,6 @@ const responseErrorInterceptor = (error) => {
 
 export {
 	requestInterceptor,
-	responseSucessInterceptor,
+	responseSuccessInterceptor,
 	responseErrorInterceptor,
 };

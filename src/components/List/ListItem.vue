@@ -1,27 +1,28 @@
 <template>
-  <li class="list__item" @click="selectPokemon">
-	  <img :src="sprite" :alt="name" class="sprite">
-	  <div class="informations">
-		  <h3 class="identifcation">
-			  <span class="id">#{{ id }}</span>
-			  <span class="name">{{ name }}</span>
-		  </h3>
-	  <div class="types">
-		  <span
-			  v-for="type in types"
-			  :key="type"
-			  :class="`bg--${type}`"
-			  class="type text--black"
-			>
-			  {{ type }}
-		  </span>
-	  </div>
-	</div>
-  </li>
+	<li class="list__item" @click="selectPokemon">
+		<img :src="sprite" :alt="name" class="sprite">
+		<div class="informations">
+			<h3 class="identification">
+				<span class="id">#{{ id }}</span>
+				<span class="name">{{ name }}</span>
+			</h3>
+			<div class="types">
+				<span
+					v-for="type in types"
+					:key="type"
+					:class="`bg--${type}`"
+					class="type text--black"
+				>
+					{{ type }}
+				</span>
+			</div>
+		</div>
+	</li>
 </template>
 
 <script>
 	import { mutations } from '@/store';
+
 	export default {
 		name: 'ListItem',
 		props: {
@@ -54,7 +55,7 @@
 </script>
 
 <style lang="scss" scoped>
-	.list__item {
+	.list__item{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -67,7 +68,7 @@
 			font-size: 14px;
 			padding: 0 8px;
 
-			.identifcation {
+			.identification {
 				align-self: flex-start;
 				font-size: 14px;
 

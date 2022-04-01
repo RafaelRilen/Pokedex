@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {
 	requestInterceptor,
-	responseSucessInterceptor,
+	responseSuccessInterceptor,
 	responseErrorInterceptor,
 } from './interceptors';
 
@@ -13,7 +13,7 @@ function Factory(baseURL) {
 	instance.interceptors.request.use(requestInterceptor);
 
 	instance.interceptors.response.use(
-		responseSucessInterceptor,
+		responseSuccessInterceptor,
 		responseErrorInterceptor,
 	);
 

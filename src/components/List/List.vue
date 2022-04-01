@@ -6,7 +6,7 @@
 		<PokemonDescription v-else-if="pokemonId" :id="pokemonId" />
 		<template v-else>
 			<ListItem v-for="pokemon in pokemonsList" :key="pokemon.id" v-bind="pokemon" />
-			<infinite-loading @Infinite="infiniteHandler" />
+			<infinite-loading @infinite="infiniteHandler" />
 		</template>
 	</ul>
 </template>
@@ -44,7 +44,7 @@
 			async infiniteHandler($state) {
 				await actions.getPokemons();
 
-				if(state.listHasNext) {
+				if (state.listHasNext) {
 					$state.loaded();
 					return;
 				}
