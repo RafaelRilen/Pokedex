@@ -22,3 +22,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+#Projeto criado seguindo o curso de Vue.Js do site Digital Innovation One, professor Rafael Maia
