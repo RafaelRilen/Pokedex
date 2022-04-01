@@ -12,6 +12,7 @@
 </template>
 
 <script>
+
 	import { state, getters, actions } from '@/store';
 
 	import ListItem from './ListItem.vue';

@@ -1,6 +1,6 @@
 <template>
-  <div class="panel bg--red-01">
-	  <LeftPanelContent />
+ <div class="panel bg--red-01">
+	<LeftPanelContent />
   </div>
 </template>
 

@@ -6,6 +6,7 @@
 </template>
 
 <style lang="scss" scoped>
+
 	.divider {
 		position: absolute;
 		height: calc(100% - 40px);

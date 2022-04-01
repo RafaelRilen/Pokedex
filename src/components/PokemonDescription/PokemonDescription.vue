@@ -10,6 +10,7 @@
 </template>
 
 <script>
+
 	import ListItem from '@/components/List/ListItem.vue';
 	import { state } from '@/store';
 	import { parsePokemonInfo } from '@/utils';

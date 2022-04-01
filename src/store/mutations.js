@@ -33,6 +33,7 @@ export default{
 		state.pokemonId = null;
 	},
 
+
 	// Adds to the pokedex only the searched pokemon
 	setPokemonSearched(pokemon) {
 		state.list =[pokemon];

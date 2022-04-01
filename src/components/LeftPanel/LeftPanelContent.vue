@@ -5,6 +5,7 @@
 </template>
 
 <script>
+
 	import List from '@/components/List/List.vue';
 
 	export default {

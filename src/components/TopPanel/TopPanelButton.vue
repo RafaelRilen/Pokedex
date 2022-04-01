@@ -9,6 +9,7 @@
 </script>
 
 <style lang="scss" scoped>
+
 	.top-panel__button {
 		position: relative;
 		padding: 0;
