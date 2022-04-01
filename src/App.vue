@@ -17,7 +17,6 @@
 </script>
 
 <style lang="scss" scoped>
-
 	#pokedex {
 		display: flex;
 		flex-direction: column;

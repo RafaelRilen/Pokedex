@@ -55,7 +55,6 @@
 </script>
 
 <style lang="scss" scoped>
-
 	.list__item{
 		display: flex;
 		justify-content: space-between;

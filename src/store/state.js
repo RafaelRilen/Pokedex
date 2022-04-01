@@ -18,5 +18,4 @@ export default Vue.observable({
 	offset: OFFSET,
 
 	pokemonId: null,
-
 });

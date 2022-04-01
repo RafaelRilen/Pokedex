@@ -50,7 +50,6 @@ export default{
 	setSearchHasError(flag) {
 		state.searchHasError = flag;
 	},
-
 	// Select Pokemon
 	setPokemonId( id = null ) {
 		state.isPokemonSearch = false;

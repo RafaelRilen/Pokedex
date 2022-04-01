@@ -47,7 +47,6 @@ export default {
 			setPokemonSearched(pokemon);
 		}
 	},
-
 	async searchPokemon(name) {
 		const {
 			setIsPokemonSearch,

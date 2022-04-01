@@ -24,7 +24,6 @@
 </template>
 
 <script>
-
 	import { actions, mutations } from '@/store';
 
 	export default {

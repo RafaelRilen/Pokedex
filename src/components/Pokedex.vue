@@ -31,7 +31,6 @@
 </style>
 
 <style lang="scss" scoped>
-
 	.pokedex {
 		position: relative;
 		display: flex;

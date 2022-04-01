@@ -21,4 +21,3 @@ function Factory(baseURL) {
 }
 
 export default Factory;
-

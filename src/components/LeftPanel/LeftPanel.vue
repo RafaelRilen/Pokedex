@@ -6,7 +6,6 @@
 
 <script>
 	import LeftPanelContent from './LeftPanelContent.vue';
-
 	export default {
 		name: 'LeftPanel',
 		components: {

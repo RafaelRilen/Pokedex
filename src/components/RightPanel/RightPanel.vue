@@ -10,7 +10,6 @@
 </template>
 
 <script>
-
 import RightPanelContent from './RightPanelContent.vue'
 	export default {
 	name: 'RightPanel',

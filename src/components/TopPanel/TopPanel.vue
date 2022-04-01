@@ -27,7 +27,6 @@
 </script>
 
 <style lang="scss" scoped>
-
 	.panel {
 		position: absolute;
 		width: 100%;
